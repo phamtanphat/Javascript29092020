@@ -51,3 +51,27 @@
 // console.log(5 < undefined)
 // Not a number
 // console.log(undefined + 1)
+
+// var a = 5
+// var b = "5"
+// console.log(a === b)
+// console.log(null == 0)
+// console.log(null >= 0)
+// console.log(null > 0)
+
+// 9 : câu điều kiện
+// var a = 5
+// var b = 10
+// 9 giá trị tương trương cho fasle : 
+// 0 , 
+// false , 
+// undefined ,
+// null ,
+// NaN ,
+// "" , 
+// ! cho gia tri khac 0 
+// if (!-1){
+//     console.log("true")
+// }else{
+//     console.log("false")
+// }
