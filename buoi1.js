@@ -26,6 +26,12 @@
 //     age : 20
 // }
 // console.log(teo.name.a)
+// TH3 : function không return hoặc return ;
+// function doSth(action){
+//     console.log("Thưc hiện : " + action)
+//     return
+// }
+// console.log(doSth("Chạy bộ"))
 
 //3 : Object (tim hieu ve camelcase)
 // JSON

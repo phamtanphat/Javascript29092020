@@ -21,4 +21,11 @@
 // 5 - 4 + 6 - 4 + 6 - 5 + 6  a = 6, b = 4
 // 1 + 2 + 1 + 6 = 10
 // console.log(ketqua)
-// ket qua ? 6 , 8
+// ket qua ? 6 , 8 , (10)
+
+// 6 : function
+// function doSth(action){
+//     console.log("Thưc hiện : " + action)
+//     return
+// }
+// console.log(doSth("Chạy bộ"))
