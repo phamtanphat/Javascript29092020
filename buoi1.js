@@ -29,8 +29,8 @@
 
 //3 : Object (tim hieu ve camelcase)
 // JSON
-var teo = {
-    name : "Nguyen Van Teo",
-    age : 20
-}
-console.log(teo.name.a)
+// const teo = {
+//     name : "Nguyen Van Teo",
+//     age : 20
+// }
+// console.log(teo.name.a)
