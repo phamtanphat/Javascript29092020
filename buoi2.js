@@ -29,3 +29,25 @@
 //     return
 // }
 // console.log(doSth("Chạy bộ"))
+
+// 7 : Object method
+// const teo = {
+//     name : "Nguyen Van Teo",
+//     age : 10,
+//     info : function (){
+//         console.log("Tên : " + this.name + ". Tuổi : " + this.age);
+//     }
+// }
+// teo.info()
+
+// 8 : Các phép so sánh
+// var a = 5
+// var b = "25"
+// console.log(a > b)
+// var teo = {age : 10}
+// var ti = {age : 10}
+// console.log(teo == ti)
+
+// console.log(5 < undefined)
+// Not a number
+// console.log(undefined + 1)
