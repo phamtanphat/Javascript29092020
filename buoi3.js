@@ -65,7 +65,7 @@
 // getKey(apartment)
 
 // 13 : Array method
-const arrNums = [5,1,10,20,30]
+// const arrNums = [5,1,10,20,30]
 // Them phần tử vào cuối mảng
 // arrNums.push(40)
 // Xóa phần tử ở cuối
@@ -81,5 +81,67 @@ const arrNums = [5,1,10,20,30]
 
 // console.log(arrNums)
   
+// 14 : Callback là tham số
 
+// function tinhTong(a , b){
+//     return a + b
+// }
+
+// function inThongTin(cb){
+//     console.log(cb)
+// }
+
+// inThongTin(tinhTong(10 , 5))
+
+// Vong lap 1 .. 100
+// In số chẳn
+// In số lẻ
+// In số chia 3 dư 1
+// In số chính phương
+
+function insoChan(){
+    for (var i = 1 ; i <= 100 ; i++){
+        if (i % 2 === 0){
+            console.log(i)
+        }
+    }
+}
+function insoLe(){
+    for (var i = 1 ; i <= 100 ; i++){
+        if (i % 2 === 1){
+            console.log(i)
+        }
+    }
+}
+
+
+function insoChia3Du1(){
+    for (var i = 1 ; i <= 100 ; i++){
+        if (i % 3 === 1){
+            console.log(i)
+        }
+    }
+}
+
+function insoChinhPhuong(){
+    for (var i = 1 ; i <= 100 ; i++){
+        if (Math.sqrt(i) % 1 === 0){
+            console.log(i)
+        }
+    }
+}
+
+function inSo(cb){
+    for (var i = 1 ; i <= 100 ; i++){
+        const dk = cb(i)
+        if (dk) console.log(i)
+    }
+}
+inSo(function(i){
+    return Math.sqrt(i) % 1 == 0
+})
+// insoChan()
+// insoLe()
+// insoChia3Du1()
+// insoChinhPhuong()
 
