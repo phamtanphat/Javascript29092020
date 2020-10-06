@@ -44,25 +44,42 @@
  * Gợi ý: đây là bài tập khó, bạn nên tìm hiểu về recursive trước
  */
 
-var apartment = {
-    bedroom: {
-      area: 20,
-      bed: {
-        type: 'twin-bed',
-        price: 100
-      }
-    }
-};
+// var apartment = {
+//     bedroom: {
+//       area: 20,
+//       bed: {
+//         type: 'twin-bed',
+//         price: 100
+//       }
+//     }
+// };
 
-function getKey(obj){
-    for (const key in obj){
-        console.log(key)
-        if(typeof obj[key] === "object"){
-            getKey(obj[key])
-        }
-    }
-}
-getKey(apartment)
+// function getKey(obj){
+//     for (const key in obj){
+//         console.log(key)
+//         if(typeof obj[key] === "object"){
+//             getKey(obj[key])
+//         }
+//     }
+// }
+// getKey(apartment)
+
+// 13 : Array method
+const arrNums = [5,1,10,20,30]
+// Them phần tử vào cuối mảng
+// arrNums.push(40)
+// Xóa phần tử ở cuối
+// arrNums.pop()
+// Thêm phần tử đầu mảng
+// arrNums.unshift(0)
+// Xóa phần tử đầu mảng
+// arrNums.shift()
+// Xóa phần tử ở giữa
+// arrNums.splice(1 , 3)
+// Thêm phần tử ở giữa
+// arrNums.splice(-1 , 0 , 50)
+
+// console.log(arrNums)
   
 
 
