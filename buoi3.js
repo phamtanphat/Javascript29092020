@@ -52,8 +52,17 @@ var apartment = {
         price: 100
       }
     }
-  };
-  
+};
+
+function getKey(obj){
+    for (const key in obj){
+        console.log(key)
+        if(typeof obj[key] === "object"){
+            getKey(obj[key])
+        }
+    }
+}
+getKey(apartment)
   
 
 
