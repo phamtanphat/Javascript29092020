@@ -99,47 +99,47 @@
 // In số chia 3 dư 1
 // In số chính phương
 
-function insoChan(){
-    for (var i = 1 ; i <= 100 ; i++){
-        if (i % 2 === 0){
-            console.log(i)
-        }
-    }
-}
-function insoLe(){
-    for (var i = 1 ; i <= 100 ; i++){
-        if (i % 2 === 1){
-            console.log(i)
-        }
-    }
-}
+// function insoChan(){
+//     for (var i = 1 ; i <= 100 ; i++){
+//         if (i % 2 === 0){
+//             console.log(i)
+//         }
+//     }
+// }
+// function insoLe(){
+//     for (var i = 1 ; i <= 100 ; i++){
+//         if (i % 2 === 1){
+//             console.log(i)
+//         }
+//     }
+// }
 
 
-function insoChia3Du1(){
-    for (var i = 1 ; i <= 100 ; i++){
-        if (i % 3 === 1){
-            console.log(i)
-        }
-    }
-}
+// function insoChia3Du1(){
+//     for (var i = 1 ; i <= 100 ; i++){
+//         if (i % 3 === 1){
+//             console.log(i)
+//         }
+//     }
+// }
 
-function insoChinhPhuong(){
-    for (var i = 1 ; i <= 100 ; i++){
-        if (Math.sqrt(i) % 1 === 0){
-            console.log(i)
-        }
-    }
-}
+// function insoChinhPhuong(){
+//     for (var i = 1 ; i <= 100 ; i++){
+//         if (Math.sqrt(i) % 1 === 0){
+//             console.log(i)
+//         }
+//     }
+// }
 
-function inSo(cb){
-    for (var i = 1 ; i <= 100 ; i++){
-        const dk = cb(i)
-        if (dk) console.log(i)
-    }
-}
-inSo(function(i){
-    return Math.sqrt(i) % 1 == 0
-})
+// function inSo(cb){
+//     for (var i = 1 ; i <= 100 ; i++){
+//         const dk = cb(i)
+//         if (dk) console.log(i)
+//     }
+// }
+// inSo(function(i){
+//     return Math.sqrt(i) % 1 == 0
+// })
 // insoChan()
 // insoLe()
 // insoChia3Du1()
