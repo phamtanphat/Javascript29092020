@@ -99,29 +99,38 @@
   ];
 */
 
-var listProducts = [
- {id: 1, categoryId: 1, name: 'Tivi'},
- {id: 2, categoryId: 1, name: 'Tủ lạnh'},
- {id: 3, categoryId: 3, name: 'Ghế sofa'},
- {id: 4, categoryId: 1, name: 'Máy giặt'},
- {id: 5, categoryId: 2, name: 'Chén bát'},
- {id: 6, categoryId: 2, name: 'Nồi cơm điện'},
- {id: 7, categoryId: 3, name: 'Cửa kính'},
- {id: 8, categoryId: 1, name: 'Điều hoà'},
- {id: 9, categoryId: 3, name: 'Bàn tròn'},
- {id: 10, categoryId: 2, name: 'Lò vi sóng'},
-]
+// var listProducts = [
+//  {id: 1, categoryId: 1, name: 'Tivi'},
+//  {id: 2, categoryId: 1, name: 'Tủ lạnh'},
+//  {id: 3, categoryId: 3, name: 'Ghế sofa'},
+//  {id: 4, categoryId: 1, name: 'Máy giặt'},
+//  {id: 5, categoryId: 2, name: 'Chén bát'},
+//  {id: 6, categoryId: 2, name: 'Nồi cơm điện'},
+//  {id: 7, categoryId: 3, name: 'Cửa kính'},
+//  {id: 8, categoryId: 1, name: 'Điều hoà'},
+//  {id: 9, categoryId: 3, name: 'Bàn tròn'},
+//  {id: 10, categoryId: 2, name: 'Lò vi sóng'},
+// ]
 
-function filterProductsByCategoryId(products, categoryId) {
-  return products.filter(function(product){
-    if(product.categoryId === categoryId){
-        return true
-    }
-    return false
-  }).map(function(product){
-        // delete product.categoryId
-        return {id : product.id , name : product.name}
-  })
-}
-console.log(filterProductsByCategoryId(listProducts,2))
+// function filterProductsByCategoryId(products, categoryId) {
+//   return products.filter(function(product){
+//     if(product.categoryId === categoryId){
+//         return true
+//     }
+//     return false
+//   }).map(function(product){
+//         // delete product.categoryId
+//         return {id : product.id , name : product.name}
+//   })
+// }
+// console.log(filterProductsByCategoryId(listProducts,2))
+
+// 17 : Hàm reduce
+// const arrNumbers = [5,2,10,20,11,15]
+// const result = arrNumbers.reduce(function(accumulator , currentValue){
+//     console.log("Accumlator " + accumulator );
+//     console.log("CurrentValue " + currentValue );
+//     return accumulator + currentValue
+// }, 0 )
+// console.log(result)
 
