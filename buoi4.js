@@ -178,3 +178,10 @@
 // teo["age"] = 20
 // teo["age"]++
 // console.log(teo)
+
+
+// 18 : Hàm sort
+
+// const numbers= ["Teo","ATuan","Ba","Ca","Da"]
+// const newNumbes = numbers.sort()
+// console.log(newNumbes)
