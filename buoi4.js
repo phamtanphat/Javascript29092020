@@ -113,6 +113,15 @@ var listProducts = [
 ]
 
 function filterProductsByCategoryId(products, categoryId) {
-  // your code here!
+  return products.filter(function(product){
+    if(product.categoryId === categoryId){
+        return true
+    }
+    return false
+  }).map(function(product){
+        // delete product.categoryId
+        return {id : product.id , name : product.name}
+  })
 }
+console.log(filterProductsByCategoryId(listProducts,2))
 
