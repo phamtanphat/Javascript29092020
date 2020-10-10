@@ -26,4 +26,32 @@
 // 21 : var let const
 // nen su dung let de tranh : Redeclaration , Hoisting , Block scope 
 
+// 22 : function context va bind
+
+// const teo = {
+//     name : "Nguyen Van Teo",
+//     age : 20,
+//     showInfo : function(){
+//         console.log("Name : " + this.name + " , Age : " + this.age);
+//     }
+// }
+
+// const coppy = teo.showInfo.bind(teo)
+// coppy()
+
+function run(cb) {
+    console.log('run...')
+    cb()
+}
+
+const mouse = {
+    name: 'Mickey',
+    run: function () {
+        console.log(this.name + ' is running')
+    }
+}
+
+run(mouse.run.bind(mouse))
+
+
 
