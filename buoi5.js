@@ -23,3 +23,7 @@
 // random()
 // console.log(a)
 
+// 21 : var let const
+// nen su dung let de tranh : Redeclaration , Hoisting , Block scope 
+
+
