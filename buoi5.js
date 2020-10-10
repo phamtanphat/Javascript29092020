@@ -39,19 +39,58 @@
 // const coppy = teo.showInfo.bind(teo)
 // coppy()
 
-function run(cb) {
-    console.log('run...')
-    cb()
-}
+// function run(cb) {
+//     console.log('run...')
+//     cb()
+// }
 
-const mouse = {
-    name: 'Mickey',
-    run: function () {
-        console.log(this.name + ' is running')
-    }
-}
+// const mouse = {
+//     name: 'Mickey',
+//     run: function () {
+//         console.log(this.name + ' is running')
+//     }
+// }
 
-run(mouse.run.bind(mouse))
+// run(mouse.run.bind(mouse))
 
+// 23 : Arrow funtion
+// const arrNums = [2,1,5,10,20,15]
+// const newArrNums = arrNums.map(function(value){
+//     return value * 2
+// })
+// const newArrNums = arrNums.map((value) => {
+//     return value * 2
+// }) 
+// console.log(newArrNums)
+
+// var a = {
+//     name : 'AAA',
+//     run : function(){
+//         var run2 = () => {
+//             var run3 = () => {
+//                 console.log(this.name)
+//             }   
+//             run3()
+//         }
+//         run2()
+//     }   
+// }
+// a.run()
+
+// function Person(){
+//     this.age = 0;
+  
+//     setInterval(() => {
+//       this.age++; // |this| ở đây trỏ tới đối tượng person
+//       console.log(this.age)
+//     }, 1000);
+// }
+  
+// var p = new Person();
+
+
+  
+
+  
 
 
